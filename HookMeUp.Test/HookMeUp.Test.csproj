@@ -36,5 +36,11 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HookMeUp\HookMeUp.csproj">
+      <Project>{D09352CA-B4B0-47DF-993D-0521A3C45463}</Project>
+      <Name>HookMeUp</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

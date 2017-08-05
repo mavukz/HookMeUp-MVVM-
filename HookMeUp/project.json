@@ -1,6 +1,11 @@
 ﻿{
-  "dependencies": {},
+  "dependencies": {
+    "FirebaseSharp": "2.0.4",
+    "Microsoft.Extensions.DependencyInjection": "1.1.1",
+    "Newtonsoft.Json": "10.0.3",
+    "refit": "3.1.0"
+  },
   "frameworks": {
-    ".NETPortable,Version=v4.5,Profile=Profile111": {}
+    ".NETPortable,Version=v4.5,Profile=Profile7": {}
   }
 }
