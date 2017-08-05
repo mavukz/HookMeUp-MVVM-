@@ -2,10 +2,10 @@
 using System;
 namespace HookMeUp.Test
 {
-    [TestFixture()]
+    [TestFixture]
     public class Test
     {
-        [Test()]
+        [Test]
         public void TestCase()
         {
         }

@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HookMeUp.iOS", "iOS\HookMeU
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HookMeUp.Droid", "Droid\HookMeUp.Droid.csproj", "{2724479B-BDF9-498B-B0F6-73155527DA13}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HookMeUp.Test", "HookMeUp.Test\HookMeUp.Test.csproj", "{3275F701-CDF7-49A3-BE67-89FC27E65A5D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|iPhoneSimulator = Debug|iPhoneSimulator
@@ -41,5 +43,17 @@ Global
 		{2724479B-BDF9-498B-B0F6-73155527DA13}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2724479B-BDF9-498B-B0F6-73155527DA13}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2724479B-BDF9-498B-B0F6-73155527DA13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3275F701-CDF7-49A3-BE67-89FC27E65A5D}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{3275F701-CDF7-49A3-BE67-89FC27E65A5D}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{3275F701-CDF7-49A3-BE67-89FC27E65A5D}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{3275F701-CDF7-49A3-BE67-89FC27E65A5D}.Release|iPhone.Build.0 = Release|Any CPU
+		{3275F701-CDF7-49A3-BE67-89FC27E65A5D}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{3275F701-CDF7-49A3-BE67-89FC27E65A5D}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{3275F701-CDF7-49A3-BE67-89FC27E65A5D}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{3275F701-CDF7-49A3-BE67-89FC27E65A5D}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{3275F701-CDF7-49A3-BE67-89FC27E65A5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3275F701-CDF7-49A3-BE67-89FC27E65A5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3275F701-CDF7-49A3-BE67-89FC27E65A5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3275F701-CDF7-49A3-BE67-89FC27E65A5D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
