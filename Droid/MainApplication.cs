@@ -21,7 +21,6 @@ namespace HookMeUp.Droid
         {
             base.OnCreate();
             RegisterActivityLifecycleCallbacks(this);
-            App.Initialize();
         }
 
         public override void OnTerminate()
@@ -61,7 +60,7 @@ namespace HookMeUp.Droid
         }
 
         public void OnActivityStopped(Activity activity)
-        {
+        { 
 
         }
     }
