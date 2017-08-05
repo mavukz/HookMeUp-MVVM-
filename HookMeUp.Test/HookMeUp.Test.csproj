@@ -36,6 +36,5 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <Import Project="..\HookMeUp\HookMeUp.projitems" Label="Shared" Condition="Exists('..\HookMeUp\HookMeUp.projitems')" />
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
