@@ -14,16 +14,6 @@ namespace HookMeUp
 
         public static void Initialize()
         {
-            if (UseMockDataStore)
-                ServiceLocator.Instance.Register<IDataStore<Item>, MockDataStore>();
-            else
-                ServiceLocator.Instance.Register<IDataStore<Item>, CloudDataStore>();
-
-#if __IOS__
-			ServiceLocator.Instance.Register<IMessageDialog, iOS.MessageDialog>();
-#else
-            ServiceLocator.Instance.Register<IMessageDialog, Droid.MessageDialog>();
-#endif
         }
 
         public static IDictionary<string, string> LoginParameters => null;
