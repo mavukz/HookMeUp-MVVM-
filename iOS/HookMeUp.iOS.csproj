@@ -133,10 +133,35 @@
     <ImageAsset Include="Assets.xcassets\XamarinLogo.imageset\xamarin_logo%402x.png" />
     <ImageAsset Include="Assets.xcassets\XamarinLogo.imageset\xamarin_logo%403x.png" />
     <ImageAsset Include="Assets.xcassets\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\logo.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\logo.imageset\rsz_1coffee-cup-clip-art-ldxgvdj.png" />
+    <ImageAsset Include="Assets.xcassets\logo.imageset\rsz_coffee-cup-clip-art-ldxgvdj.png" />
+    <ImageAsset Include="Assets.xcassets\logo.imageset\coffee-cup-clip-art-ldxgvdj.png" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AppDelegate.cs" />
     <Compile Include="Main.cs" />
+    <Compile Include="Views\DashboardViewController.cs" />
+    <Compile Include="Views\DashboardViewController.designer.cs">
+      <DependentUpon>DashboardViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\LoginViewController.cs" />
+    <Compile Include="Views\LoginViewController.designer.cs">
+      <DependentUpon>LoginViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\RegisterViewController.cs" />
+    <Compile Include="Views\RegisterViewController.designer.cs">
+      <DependentUpon>RegisterViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\OrdersViewController.cs" />
+    <Compile Include="Views\OrdersViewController.designer.cs">
+      <DependentUpon>OrdersViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SplashViewController.cs" />
+    <Compile Include="Views\SplashViewController.designer.cs">
+      <DependentUpon>SplashViewController.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="Entitlements.plist" />
@@ -144,10 +169,15 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <InterfaceDefinition Include="LaunchScreen.storyboard" />
+    <Folder Include="Views\" />
+    <Folder Include="Assets.xcassets\logo.imageset\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Views\" />
+    <InterfaceDefinition Include="Views\DashboardViewController.xib" />
+    <InterfaceDefinition Include="Views\LoginViewController.xib" />
+    <InterfaceDefinition Include="Views\RegisterViewController.xib" />
+    <InterfaceDefinition Include="Views\OrdersViewController.xib" />
+    <InterfaceDefinition Include="Views\SplashViewController.xib" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" />

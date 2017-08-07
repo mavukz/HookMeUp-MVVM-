@@ -1,4 +1,6 @@
-﻿using Foundation;
+﻿using CoreGraphics;
+using Foundation;
+using HookMeUp.iOS.Views;
 using UIKit;
 
 namespace HookMeUp.iOS
@@ -18,7 +20,9 @@ namespace HookMeUp.iOS
 
         public override bool FinishedLaunching(UIApplication application, NSDictionary launchOptions)
         {
-           
+            Window = new UIWindow(UIScreen.MainScreen.Bounds);
+            Window.RootViewController = new LoginViewController();
+            Window.MakeKeyAndVisible();
             return true;
         }
 
